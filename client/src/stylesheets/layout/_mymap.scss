@@ -1,0 +1,61 @@
+
+
+  .leaflet-container {
+    height: 300px;
+    width: 300px;
+
+    @media all and (min-width:$tablet){
+      height: 400px;
+    width: 600px;
+    }
+  }
+
+  .map {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+
+    @media all and (min-width:$tablet){
+      height: 400px;
+    width: 600px;
+    left:25%;
+    }
+
+  }
+
+  .hidden{
+    display:none;
+  }
+
+  .search-container{
+    background-color: #daedbd;
+  }
+
+  .hidden{
+    display:none;
+  }
+
+  .map-container{
+    text-align: center;
+    .button{
+      padding: 10px;
+      margin: 15px;
+      border-radius: 10px;
+      background-color: rgba(6, 79, 95, 0.7);
+      color:white;
+      font-family: 'Noto Sans JP', sans-serif;
+      border: none;
+    }
+
+    .map-area{
+      text-align: center;
+        
+      p{
+        font-family: 'Noto Sans JP', sans-serif;
+        color:#20321b;
+        font-size: 14px;
+      }
+    }
+
+  }

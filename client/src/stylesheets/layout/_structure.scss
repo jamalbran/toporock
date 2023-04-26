@@ -1,0 +1,20 @@
+.header{
+  background-image: url(../../images/header3.jpg);
+  background-position: center;
+  background-size: cover;
+
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1{
+    color: #20321b;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+  }
+
+}
+
+h1{
+  margin:0;
+}
